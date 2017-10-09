@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="300dp"
+        android:scrollbars="vertical" >
+        <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="32dp"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="      围绕促进物联网技术与应用，开展信息技术与产业应用协同创新，运用物联网的技术创新研究物联网智慧服务系统（Smart Service System ,简称3S）关键技术和服务应用，以及“互联网+”的解决方案，激发大学生的创新意识和创业精神，重点培养大学生在物联网和“互联网+”领域发现问题、提出问题和解决问题的能力。 "
+        android:textSize="50dp" />
+        
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/p4" />
+
+    
+    <TextView
+        android:id="@+id/textView1"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="陕西省无线通信与信息处理技术国际联合研究中心"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

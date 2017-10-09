@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="300dp"
+        android:scrollbars="vertical" >
+        <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="24dp"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="      本实验室为光电信息科学与工程、电信工程及管理专业和相关专业学生开设光通信相关实验课程，如《光通信综合实验》等，同时为认识实习、毕业设计、开放性实验等实践实验教学环节提供实验条件。实验室有现代光通信综合系统实验箱、误码仪和光功率计等光通信相关设备，集成数十个可操作的实验项目，涵盖光路器件特性与参数测试、光端机原理、结构及调试、光传输特性测量等各个方面，有利于学生更系统、更集中、更有效地通过实验进一步学习和掌握光通信系统的基本概念、基本结构、基本原理和基本分析设计方法，同时学会日常维护仪表的使用技能，为今后从事光通信系统的研究、设计、工程建设及运行维护打下良好的基础。保持了学院在该专业方向的特色和优势。"
+        android:textSize="50dp" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/p1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:text="信号与信息处理省级人才培养模式创新实验区"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    
+
+</RelativeLayout>

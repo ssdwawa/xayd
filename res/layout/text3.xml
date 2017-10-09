@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="300dp"
+        android:scrollbars="vertical" >
+         <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/scrollView1"
+        android:layout_marginTop="19dp"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="      该实验室主要为计算机网络技术专业学生提供无线通信技术、现代移动通信、电工电子技术课程的授课和实验任务。 实验项目有：电子技术基础、无线通信技术基础、移动通信系统、微波测量技术与仪器、移动通信网络优化射频工程、基站工程"
+        android:textSize=" 50dp" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/p2" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="现代通信技术省级实验教学示范中心"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+   
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="300dp"
+        android:scrollbars="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="blocksDescendants"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="      NGN，即Next Generation Network，其中设备有
+移动实验室，WCDAM上行、下行链路信号分析，CDAM2000上行、下行链路信号分析，窄带数字调制，IS-95上下行链路，扩频系统分析，CDMA无线设备。
+大唐SP30"
+            android:textSize="50dp" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/p3" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="现代通信技术省级实验教学示范中心"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
